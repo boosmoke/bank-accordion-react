@@ -19,6 +19,12 @@ Includes dark mode, Font Awesome icons, and responsive design.
 - Node.js (v18+ recommended)
 - npm
 
+### CD into project directory
+
+```sh
+cd ./bank-accordion-react
+```
+
 ### Installation
 
 ```sh
