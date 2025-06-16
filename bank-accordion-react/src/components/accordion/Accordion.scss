@@ -6,6 +6,10 @@
     max-width: 460px;
     min-width: 360px;
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    @media (max-width: 600px) {
+        min-width: auto;
+    }
 }
 
 .wrapper {
@@ -75,6 +79,9 @@
     p {
         margin-top: 5px;
         margin-bottom: 5px;
+        @media (max-width: 600px) {
+            text-align: left;
+        }
     }
 
     &:first-of-type {
