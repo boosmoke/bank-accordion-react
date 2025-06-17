@@ -1,6 +1,6 @@
 import { useEffect, useId, useLayoutEffect, useRef, useState, type ReactNode } from 'react'
 import './Accordion.scss'
-import { useAccordionContext } from './AccordionContext'
+import { useAccordionContext } from '../../contexts/AccordionContext'
 
 interface AccordionProps {
     title: ReactNode;   
@@ -30,7 +30,7 @@ function Accordion({ title, children }: AccordionProps) {
 
     useLayoutEffect(() => {
         if (buttonRef.current && context) {
-        context.register(buttonRef.current)
+            context.register(buttonRef.current)
         }
     }, [context])
     

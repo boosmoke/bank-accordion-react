@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import './AccordionGroup.scss'
-import { AccordionContext } from './AccordionContext'
+import { AccordionContext } from '../../contexts/AccordionContext'
 
 
 interface AccordionGroupProps {

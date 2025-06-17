@@ -2,7 +2,7 @@ import { render, screen, fireEvent } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import { AccordionGroup } from './AccordionGroup'
 import React from 'react'
-import { AccordionContext } from './AccordionContext'
+import { AccordionContext } from '../../contexts/AccordionContext'
 
 function DummyAccordionButton({ label }: { label: string }) {
   // Simulate registration with context
